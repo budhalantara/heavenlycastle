@@ -3,7 +3,7 @@
 </script>
 
 <footer class="bg-black">
-	<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+	<div class="mx-auto w-full max-w-screen-xl p-4">
 		<div class="text-white">
 			<div class="grid mx-auto gap-8 sm:gap-6 sm:grid-cols-3">
 				<div class="mb-6 md:mb-0 mx-auto">

@@ -6,7 +6,7 @@
 	import arnhemia from '../assets/arnhemia.jpg';
 	import feelzzsleepy from '../assets/feelzzsleepy.jpeg';
 	import haxsews from '../assets/haxsews.jpg'
-	import jyohx from '../assets/jyohx.jpg'
+	import jyohx from '../assets/jyohx.png'
 	import lantara from '../assets/lantara.jpg'
 	import whoamidesu from '../assets/whoamidesu.jpg'
 	let artists = [
@@ -56,7 +56,7 @@
 	];
 </script>
 
-<section>
+<section class="bg-slate-100">
     <div class="max-w-screen-2xl mx-auto px-4 py-8">
       <h2 class="text-4xl font-bold p-8">Our Artists</h2>
   

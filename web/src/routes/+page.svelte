@@ -7,9 +7,12 @@
 	import Footer from "../components/Footer.svelte";
 </script>
 
+<head>
+    <title>Heavenly Castle</title>
+</head>
+
 <Hero />
 <About />
 <Releases />
 <Artists />
-<Partners />
 <Footer />
