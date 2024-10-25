@@ -1,4 +1,4 @@
-<section class="bg-black">
+<section class="bg-black" id="about">
 	<div class="max-w-screen-2xl mx-auto px-4 py-8 grid lg:grid-cols-2 items-center">
 		<div class="text-white p-8">
 			<h2 class="text-4xl font-bold text-center lg:text-left">About Us</h2>

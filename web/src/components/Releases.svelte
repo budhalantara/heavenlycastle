@@ -30,10 +30,10 @@
 	];
 </script>
 
-<section>
+<section id="releases">
 	<div class="max-w-screen-2xl mx-auto px-4 py-8">
 		<h2 class="text-3xl lg:text-4xl text-center lg:text-left font-bold p-8">Latest Releases</h2>
-		<div class="grid lg:grid-cols-4 p-8 gap-4">
+		<div class="grid md:grid-cols-3 lg:grid-cols-4 p-8 gap-4">
 			{#each albums.slice(0, 4) as album}
 				{#each album.artist as artist}
 					<a href={album.link} target="_blank">
