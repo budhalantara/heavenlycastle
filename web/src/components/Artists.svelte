@@ -13,43 +13,35 @@
 		{
 			name: "JyoHx",
 			image: {jyohx}.jyohx,
-			bio: "puki"
 		},
 		{
 			name: "LOSTWIND",
 			image: {lostwind}.lostwind,
-			bio: 'Puki de ngana pala',
 		},
 		{
 			name: "feelzzsleepy",
 			image: {feelzzsleepy}.feelzzsleepy,
-			bio: 'Puki de ngana pala',
 		},
 		{
 			name: "ARNHEMIA",
 			image: {arnhemia}.arnhemia,
-			bio: "Puki"
 		},
 		{
 			name: 'Exel El Nino',
 			image:
 				{exel}.exel,
-			bio: 'Puki de ngana pala',
 		},
 		{
 			name: "Haxsews",
 			image: {haxsews}.haxsews,
-			bio: "puki"
 		},
 		{
 			name: "Lantara",
 			image: {lantara}.lantara,
-			bio: "bali"
 		},
 		{
 			name: "whoamidesu",
 			image: {whoamidesu}.whoamidesu,
-			bio: "test"
 		}
 
 
