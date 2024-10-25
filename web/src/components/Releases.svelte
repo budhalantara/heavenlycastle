@@ -1,13 +1,6 @@
 <script lang="ts">
 	import moth from '../assets/moth.jpeg';
 	import insaintvol2 from '../assets/insaintvol2.jpeg';
-	import overdue from '../assets/overdue.jpg';
-	import numb from '../assets/numb.jpg';
-	import causeofyou from '../assets/causeofyou.jpg';
-	import disenchanted from '../assets/disenchanted.jpg';
-	import cryingout from '../assets/cryingout.jpg';
-	import insaintlycastle from '../assets/insaintlycastle.jpg';
-
 
 	interface Artist {
 		name: string;
