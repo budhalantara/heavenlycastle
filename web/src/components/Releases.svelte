@@ -34,43 +34,6 @@
 			releaseDate: '2023-11-10',
 			link: 'https://open.spotify.com/album/6WJ4hgkUoZfolK5WwIk43i'
 		},
-		// {
-		// 	title: 'Overdue',
-		// 	artist: [{ name: 'Kuukyo, SlushSoPretty', image: { overdue }.overdue }],
-		// 	releaseDate: '2023-11-03',
-		// 	link: 'https://open.spotify.com/track/5EWUu03Npn43KHpx1MTkJV'
-		// },
-		// {
-		// 	title: 'Numb',
-		// 	artist: [{name: 'feelzzsleepy, Tenxi', image: {numb}.numb}],
-		// 	releaseDate: '2023-11-10',
-		// 	link: 'https://open.spotify.com/track/0buQkvolueTOhckcp2W94F'
-		// },
-		// {
-		// 	title: 'Cause Of You',
-		// 	artist: [{name: 'lxxcy!, gincuu', image: {causeofyou}.causeofyou }],
-		// 	releaseDate: '2023-11-10',
-		// 	link: 'https://open.spotify.com/track/6rSIOVhMUpaTv5XOeSqWZg'
-		// },
-		// {
-		// 	title: 'Disenchanted',
-		// 	artist: [{name: 'Haxsews, Limbx', image: {disenchanted}.disenchanted }],
-		// 	releaseDate: '2023-11-10',
-		// 	link: 'https://open.spotify.com/track/6jYRB16gvOLFgLELxETVrE'
-		// },
-		// {
-		// 	title: 'Crying Out',
-		// 	artist: [{name: 'JyoHx, Tech Sakura', image: {cryingout}.cryingout }],
-		// 	releaseDate: '2023-11-10',
-		// 	link: 'https://open.spotify.com/track/2G5GckMmPcjWUevymoNseH'
-		// },
-		// {
-		// 	title: 'Insaintly Castle',
-		// 	artist: [{name: 'Morevibes, Ajixxx', image: {insaintlycastle}.insaintlycastle }],
-		// 	releaseDate: '2023-11-10',
-		// 	link: 'https://open.spotify.com/track/6jYRB16gvOLFgLELxETVrE'
-		// }
-
 	];
 </script>
 
