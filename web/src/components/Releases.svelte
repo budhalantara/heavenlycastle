@@ -1,6 +1,6 @@
 <script lang="ts">
-	import moth from '../assets/moth.jpeg';
-	import insaintvol2 from '../assets/insaintvol2.jpeg';
+	import moth from '../assets/moth.webp';
+	import insaintvol2 from '../assets/insaintvol2.webp';
 
 	interface Artist {
 		name: string;

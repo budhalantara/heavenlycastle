@@ -1,32 +1,77 @@
 <script>
-	import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
+import { onMount } from 'svelte';
+  import gsap from 'gsap';
+  
+  onMount(() => {
+    gsap.from('.logo', {
+      duration: 1,
+      opacity: 0,
+      scale: 0.5,
+      rotation: 360,
+      ease: 'bounce.out',
+    });
+
+    gsap.from('.heading', {
+      duration: 1.5,
+      opacity: 0,
+      y: -100,
+      ease: 'power3.out',
+      delay: 0.3,
+    });
+
+    gsap.from('.subheading', {
+      duration: 1.5,
+      opacity: 0,
+      y: -50,
+      ease: 'power3.out',
+      delay: 0.6,
+    });
+
+    gsap.from('.learn-more-button', {
+      duration: 1,
+      opacity: 0,
+      scale: 0.5,
+      ease: 'back.out(1.7)',
+      delay: 1,
+    });
+
+    gsap.from('.social-icons a', {
+      duration: 0.8,
+      opacity: 1,
+      scale: 1,
+      stagger: 0.2,
+      ease: 'power2.out',
+      delay: 1.3,
+    });
+  });
 </script>
 
-<section class="h-screen bg-[url('./assets/bg.png')] bg-cover bg-top">
+<section class="h-screen bg-[url('./assets/bg.webp')] bg-cover bg-top">
 	<div
 		class="absolute inset-0 bg-black md:bg-transparent md:bg-gradient-to-t from-[#000000] via-transparent via-70% opacity-70 md:opacity-100"
 	></div>
 	<div class="h-full items-center grid max-w-screen-2xl mx-auto relative">
-		<img src={logo} alt="" class="invert absolute h-24 top-0 m-8 right-0 left-0 mx-auto" />
+		<img src={logo} alt="" class="logo invert absolute h-24 top-0 m-8 right-0 left-0 mx-auto" />
 
 		<div class="z-10 mx-auto">
-			<h1 class="text-4xl lg:text-6xl font-bold text-center text-white leading-tight">Harmony From Heaven,</h1>
-			<h1 class="text-4xl lg:text-6xl font-bold text-center text-white leading-tight">
+			<h1 class="text-4xl heading lg:text-6xl font-bold text-center text-white leading-tight">Harmony From Heaven,</h1>
+			<h1 class="text-4xl heading lg:text-6xl font-bold text-center text-white leading-tight">
 				Echoes From The Castle.
 			</h1>
-			<span class="text-white mx-auto flex items-center justify-center mt-8"
+			<span class="subheading text-white mx-auto flex items-center justify-center mt-8"
 				>Collective | Record Label</span
 			>
 
 			<button
-				class="py-3 px-4 flex mx-auto w-full max-w-44 items-center justify-center bg-blue-500 rounded-lg text-white mt-4"
+				class="learn-more-button py-3 px-4 flex mx-auto w-full max-w-44 items-center justify-center bg-blue-600 rounded-lg text-white mt-4"
 			>
 				Learn More
 			</button>
 		</div>
 
 		<div class="mx-auto mb-8 w-full absolute bottom-0">
-			<div class="flex items-center justify-around w-full">
+			<div class="flex items-center justify-around w-full social-icons">
 				<a
 					href="https://open.spotify.com/artist/6LUdzCiPQPAgHgLBs5JCUp"
 					target="_blank"
